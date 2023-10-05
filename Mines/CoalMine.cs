@@ -14,5 +14,10 @@ namespace EnergeticDevelopment.Mines
         {
             CoalProduction = coalProduction;
         }
+
+        public int ShowProduction()
+        {
+            return CoalProduction;
+        }
     }
 }
