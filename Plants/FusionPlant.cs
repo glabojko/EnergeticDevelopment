@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EnergeticDevelopment
+namespace EnergeticDevelopment.Plants
 {
     public class FusionPlant : PowerPlant
     {
-        int HeliumConsumption { get; set; }  = 1;
+        int HeliumConsumption { get; set; } = 1;
 
         public FusionPlant(int energyProduction, int heluimConsumption) : base(energyProduction)
         {
